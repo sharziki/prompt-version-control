@@ -141,6 +141,19 @@ function App() {
           onCreate={handleCreatePrompt}
         />
       )}
+
+      {/* Footer */}
+      <footer className="absolute bottom-0 left-0 right-0 py-2 text-center text-xs text-[hsl(var(--muted-foreground))] border-t border-[hsl(var(--border))] bg-[hsl(var(--background))]">
+        Made by{' '}
+        <a 
+          href="https://github.com/sharziki" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-[hsl(var(--primary))] hover:underline"
+        >
+          Sharvil Saxena
+        </a>
+      </footer>
     </div>
   );
 }
